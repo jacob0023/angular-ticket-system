@@ -16,7 +16,7 @@ export class AuthService {
 
   constructor(private _httpClient:HttpClient) { }
 
-
+//login function
   login(credential: any): any {
     this.isLogin = false;
     if(credential != ''){
